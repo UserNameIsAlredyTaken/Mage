@@ -2048,3 +2048,152 @@ Script call stack:
 [2021.02.15-10.51.09:268][ 28]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
 [2021.02.15-10.51.09:307][ 28]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
 [2021.02.15-10.51.09:344][ 28]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2021.02.15-10.52.16:051][764]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/HUD.HUD
+[2021.02.15-10.54.40:260][705]BlueprintLog: New page: Compile PlayerHero
+[2021.02.15-10.54.40:483][705]LogUObjectHash: Compacting FUObjectHashTables data took   6.42ms
+[2021.02.15-10.54.55:430][352]BlueprintLog: New page: Compile PlayerHero
+[2021.02.15-10.54.55:578][352]LogUObjectHash: Compacting FUObjectHashTables data took   6.59ms
+[2021.02.15-10.55.01:199][588]BlueprintLog: New page: Compile HUD
+[2021.02.15-10.55.01:271][588]LogUObjectHash: Compacting FUObjectHashTables data took   5.85ms
+[2021.02.15-10.55.02:294][632]LogUObjectHash: Compacting FUObjectHashTables data took   5.36ms
+[2021.02.15-10.55.02:327][632]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/FirstPersonExampleMap" FILE="../../../../../../Projects/Mage/TwoHandMage/Content/Maps/FirstPersonExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.02.15-10.55.02:378][632]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2021.02.15-10.55.02:416][632]LogSavePackage: Moving '../../../../../../Projects/Mage/TwoHandMage/Saved/FirstPersonExampleMapF9CAAAE345EA909B7937F09349FD3478.tmp' to '../../../../../../Projects/Mage/TwoHandMage/Content/Maps/FirstPersonExampleMap.umap'
+[2021.02.15-10.55.02:440][632]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.113
+[2021.02.15-10.55.02:474][632]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/PlayerHero" FILE="../../../../../../Projects/Mage/TwoHandMage/Content/Blueprints/Characters/PlayerHero.uasset" SILENT=true
+[2021.02.15-10.55.02:598][632]LogSavePackage: Moving '../../../../../../Projects/Mage/TwoHandMage/Saved/PlayerHeroF2F3BD854545E5169E17B0A504538BD5.tmp' to '../../../../../../Projects/Mage/TwoHandMage/Content/Blueprints/Characters/PlayerHero.uasset'
+[2021.02.15-10.55.02:600][632]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/HUD" FILE="../../../../../../Projects/Mage/TwoHandMage/Content/UI/HUD.uasset" SILENT=true
+[2021.02.15-10.55.02:620][632]LogSavePackage: Moving '../../../../../../Projects/Mage/TwoHandMage/Saved/HUD62ECCC2148B9DA0909468DBD53D3ED62.tmp' to '../../../../../../Projects/Mage/TwoHandMage/Content/UI/HUD.uasset'
+[2021.02.15-10.55.02:648][632]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.15-10.55.02:649][632]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Characters/PlayerHero.PlayerHero
+[2021.02.15-10.55.02:649][632]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/HUD.HUD
+[2021.02.15-10.55.02:649][632]LogContentValidation: Display: Validating World /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2021.02.15-10.55.03:992][678]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.15-10.55.04:017][678]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.15-10.55.04:017][678]PIE: New page: PIE session: FirstPersonExampleMap (15 февр. 2021 г., 16:55:04)
+[2021.02.15-10.55.04:018][678]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.15-10.55.04:040][678]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021877s)
+[2021.02.15-10.55.04:041][678]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.02.15-10.55.04:042][678]LogPlayLevel: PIE: World Init took: (0.001515s)
+[2021.02.15-10.55.04:042][678]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.023894s)
+[2021.02.15-10.55.04:102][678]LogUObjectHash: Compacting FUObjectHashTables data took   5.28ms
+[2021.02.15-10.55.04:109][678]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2021.02.15-10.55.04:110][678]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.15-10.55.04:110][678]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.15-10.55.04:110][678]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.15-10.55.04:110][678]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.15-10.55.04:110][678]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.15-10.55.04:110][678]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.15-10.55.04:110][678]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.15-10.55.04:110][678]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.15-10.55.04:110][678]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.15-10.55.04:110][678]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.15-10.55.04:115][678]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.15-10.55.04:115][678]LogAudioMixer: Display: 1: FrontRight
+[2021.02.15-10.55.04:183][678]LogAudioMixer: Display: Using Audio Device Динамики (Realtek High Definition Audio)
+[2021.02.15-10.55.04:184][678]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.15-10.55.04:184][678]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.15-10.55.04:184][678]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.15-10.55.04:185][678]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.15-10.55.04:185][678]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.15-10.55.04:185][678]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.15-10.55.04:207][678]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.15-10.55.04:207][678]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.15-10.55.04:207][678]LogInit: FAudioDevice initialized.
+[2021.02.15-10.55.04:207][678]LogAudio: Display: Audio Device (ID: 18) registered with world 'FirstPersonExampleMap'.
+[2021.02.15-10.55.04:220][678]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.02.15-10.55.04:225][678]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2021.02.15-13.55.04
+[2021.02.15-10.55.04:227][678]LogWorld: Bringing up level for play took: 0.005966
+[2021.02.15-10.55.04:227][678]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2021.02.15-10.55.04:229][678]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.02.15-10.55.04:230][678]PIE: Server logged in
+[2021.02.15-10.55.04:232][678]PIE: Play in editor total start time 0,217 seconds.
+[2021.02.15-10.55.26:912][385]PIE: Error: Blueprint Runtime Error: "Attempted to access FireBall_C_18 via property CallFunc_FinishSpawningActor_ReturnValue_1, but FireBall_C_18 is pending kill". Blueprint:  PlayerHero Function:  Execute Ubergraph Player Hero Graph:  FireBallGraph Node:  Set Velocity
+[2021.02.15-10.55.26:912][385]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  PlayerHero Function:  Execute Ubergraph Player Hero Graph:  FireBallGraph Node:  Set Velocity
+[2021.02.15-10.55.26:913][385]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Blueprint:  PlayerHero Function:  Execute Ubergraph Player Hero Graph:  FireBallGraph Node:  Set Velocity
+[2021.02.15-10.56.04:927][559]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.15-10.56.04:927][559]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.15-10.56.04:927][559]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.02.15-10.56.04:928][559]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.15-10.56.04:938][559]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.15-10.56.04:947][559]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.15-10.56.04:998][559]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.02.15-10.56.04:998][559]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.15-10.56.05:000][559]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.15-10.56.05:026][559]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.15-10.56.05:032][559]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
+[2021.02.15-10.56.05:147][560]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2021.02.15-10.58.06:603][  9]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.02.15-10.58.06:603][  9]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.02.15-10.58.17:223][437]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.02.15-10.58.17:223][437]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.02.15-10.59.06:393][515]BlueprintLog: New page: Compile PlayerHero
+[2021.02.15-10.59.06:531][515]LogUObjectHash: Compacting FUObjectHashTables data took   6.52ms
+[2021.02.15-11.00.03:583][807]BlueprintLog: New page: Compile HUD
+[2021.02.15-11.00.03:658][807]LogUObjectHash: Compacting FUObjectHashTables data took   5.99ms
+[2021.02.15-11.00.04:908][858]LogUObjectHash: Compacting FUObjectHashTables data took   6.05ms
+[2021.02.15-11.00.04:938][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/FirstPersonExampleMap" FILE="../../../../../../Projects/Mage/TwoHandMage/Content/Maps/FirstPersonExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.02.15-11.00.04:990][858]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2021.02.15-11.00.05:028][858]LogSavePackage: Moving '../../../../../../Projects/Mage/TwoHandMage/Saved/FirstPersonExampleMap96EAC4C8446B7B89B773B7A06EBD3086.tmp' to '../../../../../../Projects/Mage/TwoHandMage/Content/Maps/FirstPersonExampleMap.umap'
+[2021.02.15-11.00.05:053][858]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.115
+[2021.02.15-11.00.05:108][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/PlayerHero" FILE="../../../../../../Projects/Mage/TwoHandMage/Content/Blueprints/Characters/PlayerHero.uasset" SILENT=true
+[2021.02.15-11.00.05:238][858]LogSavePackage: Moving '../../../../../../Projects/Mage/TwoHandMage/Saved/PlayerHeroEAFDC25145A3EDD104C56EB543B7503D.tmp' to '../../../../../../Projects/Mage/TwoHandMage/Content/Blueprints/Characters/PlayerHero.uasset'
+[2021.02.15-11.00.05:240][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/HUD" FILE="../../../../../../Projects/Mage/TwoHandMage/Content/UI/HUD.uasset" SILENT=true
+[2021.02.15-11.00.05:264][858]LogSavePackage: Moving '../../../../../../Projects/Mage/TwoHandMage/Saved/HUDF69492F04B7316E8A10378818C81C56E.tmp' to '../../../../../../Projects/Mage/TwoHandMage/Content/UI/HUD.uasset'
+[2021.02.15-11.00.05:286][858]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.15-11.00.05:286][858]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Characters/PlayerHero.PlayerHero
+[2021.02.15-11.00.05:286][858]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/HUD.HUD
+[2021.02.15-11.00.05:287][858]LogContentValidation: Display: Validating World /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2021.02.15-11.00.07:242][937]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.15-11.00.07:280][937]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.15-11.00.07:280][937]PIE: New page: PIE session: FirstPersonExampleMap (15 февр. 2021 г., 17:00:07)
+[2021.02.15-11.00.07:280][937]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.15-11.00.07:300][937]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020012s)
+[2021.02.15-11.00.07:302][937]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.02.15-11.00.07:302][937]LogPlayLevel: PIE: World Init took: (0.001868s)
+[2021.02.15-11.00.07:303][937]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.022136s)
+[2021.02.15-11.00.07:365][937]LogUObjectHash: Compacting FUObjectHashTables data took   4.68ms
+[2021.02.15-11.00.07:367][937]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2021.02.15-11.00.07:367][937]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.15-11.00.07:367][937]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.15-11.00.07:367][937]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.15-11.00.07:367][937]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.15-11.00.07:367][937]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.15-11.00.07:367][937]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.15-11.00.07:367][937]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.15-11.00.07:367][937]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.15-11.00.07:368][937]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.15-11.00.07:368][937]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.15-11.00.07:372][937]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.15-11.00.07:372][937]LogAudioMixer: Display: 1: FrontRight
+[2021.02.15-11.00.07:439][937]LogAudioMixer: Display: Using Audio Device Динамики (Realtek High Definition Audio)
+[2021.02.15-11.00.07:440][937]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.15-11.00.07:440][937]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.15-11.00.07:440][937]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.15-11.00.07:441][937]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.15-11.00.07:441][937]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.15-11.00.07:441][937]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.15-11.00.07:463][937]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.15-11.00.07:463][937]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.15-11.00.07:463][937]LogInit: FAudioDevice initialized.
+[2021.02.15-11.00.07:463][937]LogAudio: Display: Audio Device (ID: 19) registered with world 'FirstPersonExampleMap'.
+[2021.02.15-11.00.07:477][937]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.02.15-11.00.07:483][937]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2021.02.15-14.00.07
+[2021.02.15-11.00.07:485][937]LogWorld: Bringing up level for play took: 0.006542
+[2021.02.15-11.00.07:486][937]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2021.02.15-11.00.07:488][937]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.02.15-11.00.07:490][937]PIE: Server logged in
+[2021.02.15-11.00.07:491][937]PIE: Play in editor total start time 0,214 seconds.
+[2021.02.15-11.00.52:987][349]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.15-11.00.52:987][349]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.15-11.00.52:988][349]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.02.15-11.00.52:988][349]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.15-11.00.53:001][349]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.15-11.00.53:009][349]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.15-11.00.53:058][349]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.02.15-11.00.53:058][349]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.15-11.00.53:059][349]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.15-11.00.53:085][349]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.15-11.00.53:091][349]LogUObjectHash: Compacting FUObjectHashTables data took   4.26ms
+[2021.02.15-11.00.53:153][350]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2021.02.15-11.01.03:264][485]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
