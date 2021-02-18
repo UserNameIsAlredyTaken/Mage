@@ -1368,3 +1368,1427 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.02.18-12.25.23:903][937]AssetCheck: New page: Asset Save: multiple assets
 [2021.02.18-12.25.23:903][937]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Characters/PlayerHero.PlayerHero
 [2021.02.18-12.25.23:903][937]LogContentValidation: Display: Validating World /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2021.02.18-12.27.05:391][546]BlueprintLog: New page: Compile PlayerHero
+[2021.02.18-12.27.05:532][546]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2021.02.18-12.27.06:293][561]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.18-12.27.06:316][561]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.18-12.27.06:316][561]PIE: New page: PIE session: FirstPersonExampleMap (18 февр. 2021 г., 18:27:06)
+[2021.02.18-12.27.06:317][561]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.18-12.27.06:337][561]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020452s)
+[2021.02.18-12.27.06:339][561]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.02.18-12.27.06:339][561]LogPlayLevel: PIE: World Init took: (0.001873s)
+[2021.02.18-12.27.06:339][561]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.022717s)
+[2021.02.18-12.27.06:382][561]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
+[2021.02.18-12.27.06:384][561]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2021.02.18-12.27.06:384][561]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.18-12.27.06:384][561]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.18-12.27.06:384][561]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.18-12.27.06:384][561]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.18-12.27.06:384][561]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.18-12.27.06:384][561]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.18-12.27.06:384][561]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.18-12.27.06:384][561]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.18-12.27.06:385][561]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.18-12.27.06:385][561]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.18-12.27.06:389][561]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.18-12.27.06:389][561]LogAudioMixer: Display: 1: FrontRight
+[2021.02.18-12.27.06:455][561]LogAudioMixer: Display: Using Audio Device Динамики (Realtek High Definition Audio)
+[2021.02.18-12.27.06:455][561]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.18-12.27.06:455][561]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.18-12.27.06:455][561]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.18-12.27.06:456][561]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.18-12.27.06:456][561]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.18-12.27.06:456][561]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.18-12.27.06:477][561]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.18-12.27.06:477][561]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.18-12.27.06:477][561]LogInit: FAudioDevice initialized.
+[2021.02.18-12.27.06:477][561]LogAudio: Display: Audio Device (ID: 11) registered with world 'FirstPersonExampleMap'.
+[2021.02.18-12.27.06:490][561]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.02.18-12.27.06:495][561]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2021.02.18-15.27.06
+[2021.02.18-12.27.06:497][561]LogWorld: Bringing up level for play took: 0.006954
+[2021.02.18-12.27.06:498][561]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2021.02.18-12.27.06:500][561]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.02.18-12.27.06:502][561]PIE: Server logged in
+[2021.02.18-12.27.06:503][561]PIE: Play in editor total start time 0,192 seconds.
+[2021.02.18-12.27.21:340][ 80]LogScript: Warning: Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_9.HUD_C_0
+	Function /Game/UI/HUD.HUD_C:GetHealth:000C
+[2021.02.18-12.27.21:340][ 80]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.27.21:340][ 80]LogScript: Warning: Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_9.HUD_C_0
+	Function /Game/UI/HUD.HUD_C:Get_FireballCD_Percent_0:000C
+[2021.02.18-12.27.21:340][ 80]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:340][ 80]LogScript: Warning: Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_9.HUD_C_0
+	Function /Game/UI/HUD.HUD_C:Get_GranadeCD_Percent_0:000C
+[2021.02.18-12.27.21:340][ 80]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:340][ 80]LogScript: Warning: Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_9.HUD_C_0
+	Function /Game/UI/HUD.HUD_C:Get_ShieldCD_Percent_0:000C
+[2021.02.18-12.27.21:340][ 80]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:340][ 80]LogScript: Warning: Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_9.HUD_C_0
+	Function /Game/UI/HUD.HUD_C:Get_DashCooldown_Percent_0:000C
+[2021.02.18-12.27.21:340][ 80]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:373][ 81]LogScript: Warning: Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_9.HUD_C_0
+	Function /Game/UI/HUD.HUD_C:GetHealth:000C
+[2021.02.18-12.27.21:373][ 81]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.27.21:373][ 81]LogScript: Warning: Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_9.HUD_C_0
+	Function /Game/UI/HUD.HUD_C:Get_FireballCD_Percent_0:000C
+[2021.02.18-12.27.21:373][ 81]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:373][ 81]LogScript: Warning: Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_9.HUD_C_0
+	Function /Game/UI/HUD.HUD_C:Get_GranadeCD_Percent_0:000C
+[2021.02.18-12.27.21:373][ 81]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:374][ 81]LogScript: Warning: Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_9.HUD_C_0
+	Function /Game/UI/HUD.HUD_C:Get_ShieldCD_Percent_0:000C
+[2021.02.18-12.27.21:374][ 81]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:374][ 81]LogScript: Warning: Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_9.HUD_C_0
+	Function /Game/UI/HUD.HUD_C:Get_DashCooldown_Percent_0:000C
+[2021.02.18-12.27.21:374][ 81]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:407][ 82]LogScript: Warning: Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_9.HUD_C_0
+	Function /Game/UI/HUD.HUD_C:GetHealth:000C
+[2021.02.18-12.27.21:407][ 82]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.27.21:407][ 82]LogScript: Warning: Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_9.HUD_C_0
+	Function /Game/UI/HUD.HUD_C:Get_FireballCD_Percent_0:000C
+[2021.02.18-12.27.21:408][ 82]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:408][ 82]LogScript: Warning: Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_9.HUD_C_0
+	Function /Game/UI/HUD.HUD_C:Get_GranadeCD_Percent_0:000C
+[2021.02.18-12.27.21:408][ 82]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:408][ 82]LogScript: Warning: Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_9.HUD_C_0
+	Function /Game/UI/HUD.HUD_C:Get_ShieldCD_Percent_0:000C
+[2021.02.18-12.27.21:408][ 82]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:408][ 82]LogScript: Warning: Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_9.HUD_C_0
+	Function /Game/UI/HUD.HUD_C:Get_DashCooldown_Percent_0:000C
+[2021.02.18-12.27.21:408][ 82]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:436][ 83]LogScript: Warning: Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_9.HUD_C_0
+	Function /Game/UI/HUD.HUD_C:GetHealth:000C
+[2021.02.18-12.27.21:437][ 83]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.27.21:437][ 83]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:437][ 83]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:437][ 83]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:437][ 83]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:470][ 84]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.27.21:471][ 84]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:471][ 84]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:471][ 84]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:471][ 84]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:497][ 85]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.27.21:498][ 85]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:498][ 85]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:498][ 85]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:498][ 85]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:523][ 86]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.27.21:523][ 86]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:523][ 86]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:523][ 86]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:523][ 86]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:554][ 87]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.27.21:554][ 87]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:555][ 87]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:555][ 87]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:555][ 87]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:587][ 88]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.27.21:587][ 88]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:587][ 88]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:587][ 88]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:587][ 88]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:618][ 89]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.27.21:618][ 89]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:618][ 89]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:619][ 89]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:619][ 89]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:642][ 90]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.27.21:642][ 90]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:642][ 90]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:642][ 90]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:642][ 90]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:668][ 91]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.27.21:668][ 91]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:668][ 91]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:668][ 91]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:668][ 91]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:700][ 92]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.27.21:700][ 92]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:700][ 92]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:700][ 92]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:700][ 92]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:725][ 93]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.27.21:725][ 93]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:725][ 93]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:725][ 93]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:725][ 93]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:752][ 94]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.27.21:753][ 94]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:753][ 94]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:753][ 94]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:753][ 94]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:784][ 95]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.27.21:784][ 95]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:784][ 95]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:784][ 95]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:785][ 95]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:809][ 96]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.27.21:809][ 96]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:809][ 96]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:809][ 96]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:809][ 96]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:837][ 97]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.27.21:837][ 97]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:837][ 97]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:837][ 97]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:837][ 97]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:874][ 98]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.27.21:874][ 98]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:874][ 98]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:874][ 98]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:874][ 98]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:901][ 99]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.27.21:901][ 99]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:901][ 99]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:901][ 99]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:901][ 99]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:924][100]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.27.21:924][100]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:924][100]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:925][100]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:925][100]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:955][101]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.27.21:955][101]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:955][101]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:955][101]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:955][101]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:986][102]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.27.21:987][102]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:987][102]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:987][102]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.21:987][102]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.27.22:010][103]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.27.22:010][103]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.22:010][103]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.22:010][103]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.22:011][103]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.27.22:036][104]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.27.22:037][104]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.22:037][104]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.22:037][104]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.22:037][104]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.27.22:069][105]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.27.22:069][105]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.22:069][105]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.22:069][105]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.22:069][105]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.27.22:092][106]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.27.22:092][106]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.22:092][106]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.22:092][106]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.22:093][106]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.27.22:118][107]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.27.22:118][107]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.22:119][107]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.22:119][107]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.22:119][107]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.27.22:151][108]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.27.22:151][108]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.22:151][108]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.22:151][108]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.22:152][108]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.27.22:176][109]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.27.22:176][109]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.22:176][109]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.22:176][109]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.27.22:176][109]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.27.22:223][110]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-12.27.22:223][110]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.18-12.27.22:224][110]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.02.18-12.27.22:225][110]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-12.27.22:238][110]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.18-12.27.22:262][110]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-12.27.22:292][110]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.02.18-12.27.22:293][110]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.18-12.27.22:294][110]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.18-12.27.22:323][110]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-12.27.22:328][110]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2021.02.18-12.27.22:441][111]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2021.02.18-12.27.38:187][599]BlueprintLog: New page: Compile PlayerHero
+[2021.02.18-12.27.38:311][599]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2021.02.18-12.27.39:809][633]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.18-12.27.39:834][633]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.18-12.27.39:835][633]PIE: New page: PIE session: FirstPersonExampleMap (18 февр. 2021 г., 18:27:39)
+[2021.02.18-12.27.39:835][633]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.18-12.27.39:855][633]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020747s)
+[2021.02.18-12.27.39:856][633]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.02.18-12.27.39:857][633]LogPlayLevel: PIE: World Init took: (0.001952s)
+[2021.02.18-12.27.39:857][633]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.022977s)
+[2021.02.18-12.27.39:895][633]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2021.02.18-12.27.39:897][633]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2021.02.18-12.27.39:897][633]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.18-12.27.39:897][633]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.18-12.27.39:897][633]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.18-12.27.39:897][633]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.18-12.27.39:897][633]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.18-12.27.39:897][633]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.18-12.27.39:897][633]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.18-12.27.39:897][633]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.18-12.27.39:897][633]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.18-12.27.39:897][633]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.18-12.27.39:902][633]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.18-12.27.39:902][633]LogAudioMixer: Display: 1: FrontRight
+[2021.02.18-12.27.39:966][633]LogAudioMixer: Display: Using Audio Device Динамики (Realtek High Definition Audio)
+[2021.02.18-12.27.39:967][633]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.18-12.27.39:967][633]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.18-12.27.39:967][633]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.18-12.27.39:967][633]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.18-12.27.39:967][633]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.18-12.27.39:967][633]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.18-12.27.39:991][633]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.18-12.27.39:991][633]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.18-12.27.39:991][633]LogInit: FAudioDevice initialized.
+[2021.02.18-12.27.39:991][633]LogAudio: Display: Audio Device (ID: 12) registered with world 'FirstPersonExampleMap'.
+[2021.02.18-12.27.40:002][633]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.02.18-12.27.40:008][633]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2021.02.18-15.27.40
+[2021.02.18-12.27.40:010][633]LogWorld: Bringing up level for play took: 0.006996
+[2021.02.18-12.27.40:010][633]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2021.02.18-12.27.40:014][633]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.02.18-12.27.40:016][633]PIE: Server logged in
+[2021.02.18-12.27.40:017][633]PIE: Play in editor total start time 0,186 seconds.
+[2021.02.18-12.28.34:193][516]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-12.28.34:193][516]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.18-12.28.34:193][516]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.02.18-12.28.34:194][516]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-12.28.34:202][516]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.18-12.28.34:228][516]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-12.28.34:259][516]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.02.18-12.28.34:260][516]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.18-12.28.34:262][516]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.18-12.28.34:291][516]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-12.28.34:297][516]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2021.02.18-12.28.34:388][517]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2021.02.18-12.28.41:556][740]BlueprintLog: New page: Compile PlayerHero
+[2021.02.18-12.28.41:685][740]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2021.02.18-12.28.42:928][773]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.18-12.28.42:953][773]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.18-12.28.42:953][773]PIE: New page: PIE session: FirstPersonExampleMap (18 февр. 2021 г., 18:28:42)
+[2021.02.18-12.28.42:953][773]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.18-12.28.42:974][773]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020504s)
+[2021.02.18-12.28.42:975][773]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.02.18-12.28.42:975][773]LogPlayLevel: PIE: World Init took: (0.001716s)
+[2021.02.18-12.28.42:976][773]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.022510s)
+[2021.02.18-12.28.43:013][773]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2021.02.18-12.28.43:015][773]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2021.02.18-12.28.43:015][773]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.18-12.28.43:015][773]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.18-12.28.43:015][773]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.18-12.28.43:015][773]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.18-12.28.43:015][773]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.18-12.28.43:015][773]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.18-12.28.43:015][773]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.18-12.28.43:015][773]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.18-12.28.43:016][773]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.18-12.28.43:016][773]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.18-12.28.43:020][773]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.18-12.28.43:020][773]LogAudioMixer: Display: 1: FrontRight
+[2021.02.18-12.28.43:083][773]LogAudioMixer: Display: Using Audio Device Динамики (Realtek High Definition Audio)
+[2021.02.18-12.28.43:084][773]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.18-12.28.43:084][773]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.18-12.28.43:084][773]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.18-12.28.43:084][773]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.18-12.28.43:084][773]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.18-12.28.43:084][773]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.18-12.28.43:105][773]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.18-12.28.43:105][773]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.18-12.28.43:105][773]LogInit: FAudioDevice initialized.
+[2021.02.18-12.28.43:105][773]LogAudio: Display: Audio Device (ID: 13) registered with world 'FirstPersonExampleMap'.
+[2021.02.18-12.28.43:117][773]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.02.18-12.28.43:124][773]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2021.02.18-15.28.43
+[2021.02.18-12.28.43:126][773]LogWorld: Bringing up level for play took: 0.007679
+[2021.02.18-12.28.43:127][773]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2021.02.18-12.28.43:129][773]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.02.18-12.28.43:132][773]PIE: Server logged in
+[2021.02.18-12.28.43:134][773]PIE: Play in editor total start time 0,186 seconds.
+[2021.02.18-12.29.06:364][547]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-12.29.06:364][547]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.18-12.29.06:365][547]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.02.18-12.29.06:365][547]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-12.29.06:375][547]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.18-12.29.06:397][547]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-12.29.06:426][547]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.02.18-12.29.06:427][547]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.18-12.29.06:428][547]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.18-12.29.06:452][547]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-12.29.06:456][547]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2021.02.18-12.29.06:544][548]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2021.02.18-12.29.11:601][695]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.02.18-12.29.11:602][695]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.02.18-12.29.22:242][ 23]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.02.18-12.29.22:242][ 23]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.02.18-12.29.35:122][411]BlueprintLog: New page: Compile PlayerHero
+[2021.02.18-12.29.35:246][411]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2021.02.18-12.29.36:389][438]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.18-12.29.36:417][438]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.18-12.29.36:418][438]PIE: New page: PIE session: FirstPersonExampleMap (18 февр. 2021 г., 18:29:36)
+[2021.02.18-12.29.36:418][438]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.18-12.29.36:437][438]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019608s)
+[2021.02.18-12.29.36:439][438]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.02.18-12.29.36:440][438]LogPlayLevel: PIE: World Init took: (0.002186s)
+[2021.02.18-12.29.36:440][438]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.022063s)
+[2021.02.18-12.29.36:482][438]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2021.02.18-12.29.36:484][438]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2021.02.18-12.29.36:484][438]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.18-12.29.36:484][438]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.18-12.29.36:484][438]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.18-12.29.36:484][438]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.18-12.29.36:484][438]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.18-12.29.36:484][438]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.18-12.29.36:484][438]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.18-12.29.36:484][438]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.18-12.29.36:485][438]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.18-12.29.36:485][438]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.18-12.29.36:489][438]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.18-12.29.36:489][438]LogAudioMixer: Display: 1: FrontRight
+[2021.02.18-12.29.36:552][438]LogAudioMixer: Display: Using Audio Device Динамики (Realtek High Definition Audio)
+[2021.02.18-12.29.36:552][438]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.18-12.29.36:553][438]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.18-12.29.36:553][438]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.18-12.29.36:553][438]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.18-12.29.36:553][438]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.18-12.29.36:553][438]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.18-12.29.36:575][438]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.18-12.29.36:575][438]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.18-12.29.36:575][438]LogInit: FAudioDevice initialized.
+[2021.02.18-12.29.36:575][438]LogAudio: Display: Audio Device (ID: 14) registered with world 'FirstPersonExampleMap'.
+[2021.02.18-12.29.36:588][438]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.02.18-12.29.36:595][438]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2021.02.18-15.29.36
+[2021.02.18-12.29.36:597][438]LogWorld: Bringing up level for play took: 0.008005
+[2021.02.18-12.29.36:598][438]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2021.02.18-12.29.36:600][438]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.02.18-12.29.36:603][438]PIE: Server logged in
+[2021.02.18-12.29.36:605][438]PIE: Play in editor total start time 0,192 seconds.
+[2021.02.18-12.29.43:214][633]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-12.29.43:214][633]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.18-12.29.43:215][633]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.02.18-12.29.43:216][633]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-12.29.43:228][633]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.18-12.29.43:254][633]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-12.29.43:286][633]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.02.18-12.29.43:286][633]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.18-12.29.43:288][633]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.18-12.29.43:317][633]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-12.29.43:324][633]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2021.02.18-12.29.43:422][634]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2021.02.18-12.29.47:824][748]BlueprintLog: New page: Compile PlayerHero
+[2021.02.18-12.29.47:966][748]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2021.02.18-12.29.49:225][778]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.18-12.29.49:252][778]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.18-12.29.49:252][778]PIE: New page: PIE session: FirstPersonExampleMap (18 февр. 2021 г., 18:29:49)
+[2021.02.18-12.29.49:252][778]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.18-12.29.49:273][778]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020731s)
+[2021.02.18-12.29.49:274][778]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.02.18-12.29.49:275][778]LogPlayLevel: PIE: World Init took: (0.002088s)
+[2021.02.18-12.29.49:275][778]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.023094s)
+[2021.02.18-12.29.49:318][778]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
+[2021.02.18-12.29.49:320][778]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2021.02.18-12.29.49:320][778]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.18-12.29.49:320][778]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.18-12.29.49:320][778]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.18-12.29.49:320][778]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.18-12.29.49:320][778]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.18-12.29.49:320][778]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.18-12.29.49:320][778]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.18-12.29.49:320][778]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.18-12.29.49:321][778]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.18-12.29.49:321][778]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.18-12.29.49:326][778]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.18-12.29.49:326][778]LogAudioMixer: Display: 1: FrontRight
+[2021.02.18-12.29.49:401][778]LogAudioMixer: Display: Using Audio Device Динамики (Realtek High Definition Audio)
+[2021.02.18-12.29.49:401][778]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.18-12.29.49:401][778]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.18-12.29.49:401][778]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.18-12.29.49:402][778]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.18-12.29.49:402][778]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.18-12.29.49:402][778]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.18-12.29.49:431][778]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.18-12.29.49:431][778]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.18-12.29.49:431][778]LogInit: FAudioDevice initialized.
+[2021.02.18-12.29.49:431][778]LogAudio: Display: Audio Device (ID: 15) registered with world 'FirstPersonExampleMap'.
+[2021.02.18-12.29.49:447][778]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.02.18-12.29.49:454][778]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2021.02.18-15.29.49
+[2021.02.18-12.29.49:456][778]LogWorld: Bringing up level for play took: 0.008290
+[2021.02.18-12.29.49:456][778]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2021.02.18-12.29.49:459][778]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.02.18-12.29.49:462][778]PIE: Server logged in
+[2021.02.18-12.29.49:463][778]PIE: Play in editor total start time 0,214 seconds.
+[2021.02.18-12.29.56:614][990]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-12.29.56:614][990]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.18-12.29.56:615][990]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.02.18-12.29.56:616][990]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-12.29.56:625][990]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.18-12.29.56:653][990]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-12.29.56:689][990]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.02.18-12.29.56:689][990]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.18-12.29.56:691][990]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.18-12.29.56:721][990]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-12.29.56:726][990]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2021.02.18-12.29.56:829][991]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2021.02.18-12.30.02:174][131]BlueprintLog: New page: Compile PlayerHero
+[2021.02.18-12.30.02:320][131]LogUObjectHash: Compacting FUObjectHashTables data took   3.82ms
+[2021.02.18-12.30.03:900][168]LogUObjectHash: Compacting FUObjectHashTables data took   7.50ms
+[2021.02.18-12.30.03:935][168]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/FirstPersonExampleMap" FILE="../../../../../../Projects/Mage/TwoHandMage/Content/Maps/FirstPersonExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.02.18-12.30.03:973][168]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2021.02.18-12.30.04:017][168]LogSavePackage: Moving '../../../../../../Projects/Mage/TwoHandMage/Saved/FirstPersonExampleMapC87559394ABEAFB8709CBCA122A1C96D.tmp' to '../../../../../../Projects/Mage/TwoHandMage/Content/Maps/FirstPersonExampleMap.umap'
+[2021.02.18-12.30.04:045][168]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.110
+[2021.02.18-12.30.04:084][168]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/PlayerHero" FILE="../../../../../../Projects/Mage/TwoHandMage/Content/Blueprints/Characters/PlayerHero.uasset" SILENT=true
+[2021.02.18-12.30.04:300][168]LogSavePackage: Moving '../../../../../../Projects/Mage/TwoHandMage/Saved/PlayerHeroE4DFA99C4600020FF8CDB88B596C9821.tmp' to '../../../../../../Projects/Mage/TwoHandMage/Content/Blueprints/Characters/PlayerHero.uasset'
+[2021.02.18-12.30.04:347][168]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.18-12.30.04:347][168]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Characters/PlayerHero.PlayerHero
+[2021.02.18-12.30.04:347][168]LogContentValidation: Display: Validating World /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2021.02.18-12.30.05:241][191]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.18-12.30.05:269][191]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.18-12.30.05:270][191]PIE: New page: PIE session: FirstPersonExampleMap (18 февр. 2021 г., 18:30:05)
+[2021.02.18-12.30.05:270][191]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.18-12.30.05:305][191]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033814s)
+[2021.02.18-12.30.05:306][191]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.02.18-12.30.05:306][191]LogPlayLevel: PIE: World Init took: (0.002116s)
+[2021.02.18-12.30.05:306][191]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.036636s)
+[2021.02.18-12.30.05:352][191]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2021.02.18-12.30.05:355][191]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2021.02.18-12.30.05:355][191]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.18-12.30.05:355][191]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.18-12.30.05:355][191]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.18-12.30.05:355][191]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.18-12.30.05:355][191]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.18-12.30.05:355][191]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.18-12.30.05:355][191]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.18-12.30.05:355][191]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.18-12.30.05:356][191]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.18-12.30.05:356][191]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.18-12.30.05:361][191]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.18-12.30.05:361][191]LogAudioMixer: Display: 1: FrontRight
+[2021.02.18-12.30.05:440][191]LogAudioMixer: Display: Using Audio Device Динамики (Realtek High Definition Audio)
+[2021.02.18-12.30.05:440][191]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.18-12.30.05:440][191]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.18-12.30.05:440][191]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.18-12.30.05:441][191]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.18-12.30.05:441][191]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.18-12.30.05:441][191]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.18-12.30.05:471][191]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.18-12.30.05:471][191]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.18-12.30.05:471][191]LogInit: FAudioDevice initialized.
+[2021.02.18-12.30.05:471][191]LogAudio: Display: Audio Device (ID: 16) registered with world 'FirstPersonExampleMap'.
+[2021.02.18-12.30.05:483][191]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.02.18-12.30.05:489][191]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2021.02.18-15.30.05
+[2021.02.18-12.30.05:492][191]LogWorld: Bringing up level for play took: 0.007471
+[2021.02.18-12.30.05:492][191]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2021.02.18-12.30.05:495][191]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.02.18-12.30.05:498][191]PIE: Server logged in
+[2021.02.18-12.30.05:499][191]PIE: Play in editor total start time 0,235 seconds.
+[2021.02.18-12.30.26:954][899]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-12.30.26:955][899]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.18-12.30.26:956][899]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.02.18-12.30.26:959][899]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-12.30.26:976][899]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.18-12.30.27:002][899]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-12.30.27:034][899]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-12.30.27:034][899]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.18-12.30.27:035][899]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.18-12.30.27:070][899]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2021.02.18-12.30.27:150][900]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2021.02.18-12.30.33:017][ 63]BlueprintLog: New page: Compile PlayerHero
+[2021.02.18-12.30.33:154][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2021.02.18-12.30.35:899][138]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.18-12.30.35:943][138]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.18-12.30.35:943][138]PIE: New page: PIE session: FirstPersonExampleMap (18 февр. 2021 г., 18:30:35)
+[2021.02.18-12.30.35:944][138]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.18-12.30.35:972][138]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028242s)
+[2021.02.18-12.30.35:974][138]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.02.18-12.30.35:975][138]LogPlayLevel: PIE: World Init took: (0.002436s)
+[2021.02.18-12.30.35:975][138]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.031131s)
+[2021.02.18-12.30.36:022][138]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
+[2021.02.18-12.30.36:025][138]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2021.02.18-12.30.36:025][138]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.18-12.30.36:025][138]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.18-12.30.36:025][138]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.18-12.30.36:025][138]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.18-12.30.36:025][138]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.18-12.30.36:025][138]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.18-12.30.36:025][138]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.18-12.30.36:025][138]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.18-12.30.36:026][138]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.18-12.30.36:026][138]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.18-12.30.36:031][138]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.18-12.30.36:031][138]LogAudioMixer: Display: 1: FrontRight
+[2021.02.18-12.30.36:106][138]LogAudioMixer: Display: Using Audio Device Динамики (Realtek High Definition Audio)
+[2021.02.18-12.30.36:107][138]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.18-12.30.36:107][138]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.18-12.30.36:107][138]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.18-12.30.36:107][138]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.18-12.30.36:108][138]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.18-12.30.36:108][138]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.18-12.30.36:134][138]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.18-12.30.36:135][138]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.18-12.30.36:135][138]LogInit: FAudioDevice initialized.
+[2021.02.18-12.30.36:135][138]LogAudio: Display: Audio Device (ID: 17) registered with world 'FirstPersonExampleMap'.
+[2021.02.18-12.30.36:148][138]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.02.18-12.30.36:155][138]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2021.02.18-15.30.36
+[2021.02.18-12.30.36:158][138]LogWorld: Bringing up level for play took: 0.008846
+[2021.02.18-12.30.36:158][138]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2021.02.18-12.30.36:160][138]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.02.18-12.30.36:163][138]PIE: Server logged in
+[2021.02.18-12.30.36:165][138]PIE: Play in editor total start time 0,233 seconds.
+[2021.02.18-12.30.59:354][917]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-12.30.59:354][917]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.18-12.30.59:355][917]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.02.18-12.30.59:356][917]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-12.30.59:370][917]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.18-12.30.59:398][917]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-12.30.59:431][917]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.02.18-12.30.59:431][917]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.18-12.30.59:433][917]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.18-12.30.59:460][917]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-12.30.59:467][917]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2021.02.18-12.30.59:555][918]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2021.02.18-12.31.08:634][177]BlueprintLog: New page: Compile PlayerHero
+[2021.02.18-12.31.08:797][177]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2021.02.18-12.31.09:967][201]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.18-12.31.09:993][201]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.18-12.31.09:994][201]PIE: New page: PIE session: FirstPersonExampleMap (18 февр. 2021 г., 18:31:09)
+[2021.02.18-12.31.09:994][201]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.18-12.31.10:024][201]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030350s)
+[2021.02.18-12.31.10:026][201]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.02.18-12.31.10:027][201]LogPlayLevel: PIE: World Init took: (0.002583s)
+[2021.02.18-12.31.10:027][201]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.033295s)
+[2021.02.18-12.31.10:071][201]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
+[2021.02.18-12.31.10:073][201]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2021.02.18-12.31.10:073][201]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.18-12.31.10:073][201]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.18-12.31.10:074][201]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.18-12.31.10:074][201]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.18-12.31.10:074][201]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.18-12.31.10:074][201]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.18-12.31.10:074][201]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.18-12.31.10:074][201]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.18-12.31.10:074][201]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.18-12.31.10:074][201]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.18-12.31.10:079][201]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.18-12.31.10:079][201]LogAudioMixer: Display: 1: FrontRight
+[2021.02.18-12.31.10:154][201]LogAudioMixer: Display: Using Audio Device Динамики (Realtek High Definition Audio)
+[2021.02.18-12.31.10:155][201]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.18-12.31.10:155][201]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.18-12.31.10:155][201]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.18-12.31.10:155][201]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.18-12.31.10:156][201]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.18-12.31.10:156][201]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.18-12.31.10:182][201]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.18-12.31.10:182][201]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.18-12.31.10:182][201]LogInit: FAudioDevice initialized.
+[2021.02.18-12.31.10:182][201]LogAudio: Display: Audio Device (ID: 18) registered with world 'FirstPersonExampleMap'.
+[2021.02.18-12.31.10:196][201]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.02.18-12.31.10:203][201]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2021.02.18-15.31.10
+[2021.02.18-12.31.10:205][201]LogWorld: Bringing up level for play took: 0.007654
+[2021.02.18-12.31.10:206][201]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2021.02.18-12.31.10:208][201]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.02.18-12.31.10:211][201]PIE: Server logged in
+[2021.02.18-12.31.10:213][201]PIE: Play in editor total start time 0,223 seconds.
+[2021.02.18-12.31.44:984][308]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-12.31.44:984][308]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.18-12.31.44:985][308]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.02.18-12.31.44:986][308]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-12.31.44:997][308]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.18-12.31.45:023][308]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-12.31.45:056][308]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.02.18-12.31.45:057][308]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.18-12.31.45:058][308]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.18-12.31.45:087][308]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-12.31.45:094][308]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2021.02.18-12.31.45:188][309]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2021.02.18-12.31.48:277][396]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.18-12.31.48:302][396]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.18-12.31.48:302][396]PIE: New page: PIE session: FirstPersonExampleMap (18 февр. 2021 г., 18:31:48)
+[2021.02.18-12.31.48:302][396]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.18-12.31.48:336][396]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033885s)
+[2021.02.18-12.31.48:338][396]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.02.18-12.31.48:338][396]LogPlayLevel: PIE: World Init took: (0.002303s)
+[2021.02.18-12.31.48:339][396]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.036602s)
+[2021.02.18-12.31.48:379][396]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2021.02.18-12.31.48:381][396]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2021.02.18-12.31.48:381][396]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.18-12.31.48:381][396]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.18-12.31.48:381][396]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.18-12.31.48:382][396]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.18-12.31.48:382][396]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.18-12.31.48:382][396]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.18-12.31.48:382][396]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.18-12.31.48:382][396]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.18-12.31.48:382][396]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.18-12.31.48:382][396]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.18-12.31.48:387][396]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.18-12.31.48:387][396]LogAudioMixer: Display: 1: FrontRight
+[2021.02.18-12.31.48:463][396]LogAudioMixer: Display: Using Audio Device Динамики (Realtek High Definition Audio)
+[2021.02.18-12.31.48:463][396]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.18-12.31.48:463][396]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.18-12.31.48:463][396]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.18-12.31.48:464][396]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.18-12.31.48:464][396]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.18-12.31.48:464][396]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.18-12.31.48:491][396]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.18-12.31.48:491][396]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.18-12.31.48:491][396]LogInit: FAudioDevice initialized.
+[2021.02.18-12.31.48:491][396]LogAudio: Display: Audio Device (ID: 19) registered with world 'FirstPersonExampleMap'.
+[2021.02.18-12.31.48:502][396]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.02.18-12.31.48:509][396]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2021.02.18-15.31.48
+[2021.02.18-12.31.48:511][396]LogWorld: Bringing up level for play took: 0.007798
+[2021.02.18-12.31.48:512][396]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2021.02.18-12.31.48:515][396]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.02.18-12.31.48:517][396]PIE: Server logged in
+[2021.02.18-12.31.48:519][396]PIE: Play in editor total start time 0,218 seconds.
+[2021.02.18-12.32.25:114][557]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-12.32.25:114][557]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.18-12.32.25:115][557]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.02.18-12.32.25:116][557]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-12.32.25:126][557]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.18-12.32.25:153][557]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-12.32.25:187][557]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-12.32.25:187][557]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.18-12.32.25:189][557]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.18-12.32.25:221][557]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2021.02.18-12.32.25:314][558]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2021.02.18-12.32.34:112][816]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Characters/BaseCharacter.BaseCharacter
+[2021.02.18-12.33.06:391][110]BlueprintLog: New page: Compile BaseCharacter
+[2021.02.18-12.33.06:640][110]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2021.02.18-12.33.21:845][757]BlueprintLog: New page: Compile BaseCharacter
+[2021.02.18-12.33.22:090][757]LogUObjectHash: Compacting FUObjectHashTables data took   3.96ms
+[2021.02.18-12.33.26:865][934]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.18-12.33.26:896][934]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.18-12.33.26:896][934]PIE: New page: PIE session: FirstPersonExampleMap (18 февр. 2021 г., 18:33:26)
+[2021.02.18-12.33.26:896][934]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.18-12.33.26:920][934]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024150s)
+[2021.02.18-12.33.26:923][934]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.02.18-12.33.26:923][934]LogPlayLevel: PIE: World Init took: (0.002439s)
+[2021.02.18-12.33.26:923][934]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.026876s)
+[2021.02.18-12.33.26:969][934]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
+[2021.02.18-12.33.26:971][934]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2021.02.18-12.33.26:971][934]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.18-12.33.26:971][934]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.18-12.33.26:971][934]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.18-12.33.26:971][934]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.18-12.33.26:971][934]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.18-12.33.26:971][934]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.18-12.33.26:971][934]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.18-12.33.26:971][934]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.18-12.33.26:972][934]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.18-12.33.26:972][934]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.18-12.33.26:977][934]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.18-12.33.26:977][934]LogAudioMixer: Display: 1: FrontRight
+[2021.02.18-12.33.27:055][934]LogAudioMixer: Display: Using Audio Device Динамики (Realtek High Definition Audio)
+[2021.02.18-12.33.27:056][934]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.18-12.33.27:056][934]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.18-12.33.27:056][934]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.18-12.33.27:057][934]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.18-12.33.27:057][934]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.18-12.33.27:057][934]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.18-12.33.27:083][934]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.18-12.33.27:083][934]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.18-12.33.27:083][934]LogInit: FAudioDevice initialized.
+[2021.02.18-12.33.27:083][934]LogAudio: Display: Audio Device (ID: 20) registered with world 'FirstPersonExampleMap'.
+[2021.02.18-12.33.27:097][934]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.02.18-12.33.27:104][934]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2021.02.18-15.33.27
+[2021.02.18-12.33.27:107][934]LogWorld: Bringing up level for play took: 0.007911
+[2021.02.18-12.33.27:107][934]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2021.02.18-12.33.27:109][934]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.02.18-12.33.27:112][934]PIE: Server logged in
+[2021.02.18-12.33.27:113][934]PIE: Play in editor total start time 0,221 seconds.
+[2021.02.18-12.33.56:465][846]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-12.33.56:465][846]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.18-12.33.56:466][846]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.02.18-12.33.56:467][846]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-12.33.56:476][846]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.18-12.33.56:505][846]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-12.33.56:540][846]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.02.18-12.33.56:541][846]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.18-12.33.56:542][846]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.18-12.33.56:570][846]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-12.33.56:576][846]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2021.02.18-12.33.56:670][847]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2021.02.18-12.34.13:290][294]BlueprintLog: New page: Compile BaseCharacter
+[2021.02.18-12.34.13:525][294]LogUObjectHash: Compacting FUObjectHashTables data took   4.13ms
+[2021.02.18-12.34.49:505][331]BlueprintLog: New page: Compile BaseCharacter
+[2021.02.18-12.34.49:766][331]LogUObjectHash: Compacting FUObjectHashTables data took   4.36ms
+[2021.02.18-12.34.53:301][425]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.18-12.34.53:333][425]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.18-12.34.53:334][425]PIE: New page: PIE session: FirstPersonExampleMap (18 февр. 2021 г., 18:34:53)
+[2021.02.18-12.34.53:334][425]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.18-12.34.53:359][425]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025466s)
+[2021.02.18-12.34.53:361][425]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.02.18-12.34.53:362][425]LogPlayLevel: PIE: World Init took: (0.002338s)
+[2021.02.18-12.34.53:362][425]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.028149s)
+[2021.02.18-12.34.53:410][425]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2021.02.18-12.34.53:412][425]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2021.02.18-12.34.53:412][425]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.18-12.34.53:412][425]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.18-12.34.53:412][425]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.18-12.34.53:412][425]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.18-12.34.53:412][425]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.18-12.34.53:413][425]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.18-12.34.53:413][425]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.18-12.34.53:413][425]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.18-12.34.53:413][425]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.18-12.34.53:413][425]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.18-12.34.53:419][425]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.18-12.34.53:419][425]LogAudioMixer: Display: 1: FrontRight
+[2021.02.18-12.34.53:496][425]LogAudioMixer: Display: Using Audio Device Динамики (Realtek High Definition Audio)
+[2021.02.18-12.34.53:496][425]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.18-12.34.53:496][425]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.18-12.34.53:497][425]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.18-12.34.53:497][425]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.18-12.34.53:497][425]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.18-12.34.53:497][425]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.18-12.34.53:523][425]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.18-12.34.53:523][425]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.18-12.34.53:524][425]LogInit: FAudioDevice initialized.
+[2021.02.18-12.34.53:524][425]LogAudio: Display: Audio Device (ID: 21) registered with world 'FirstPersonExampleMap'.
+[2021.02.18-12.34.53:533][425]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.02.18-12.34.53:539][425]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2021.02.18-15.34.53
+[2021.02.18-12.34.53:542][425]LogWorld: Bringing up level for play took: 0.007515
+[2021.02.18-12.34.53:542][425]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2021.02.18-12.34.53:545][425]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.02.18-12.34.53:548][425]PIE: Server logged in
+[2021.02.18-12.34.53:549][425]PIE: Play in editor total start time 0,22 seconds.
+[2021.02.18-12.35.39:634][877]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-12.35.39:634][877]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.18-12.35.39:635][877]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.02.18-12.35.39:636][877]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-12.35.39:644][877]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.18-12.35.39:674][877]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-12.35.39:709][877]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.02.18-12.35.39:709][877]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.18-12.35.39:710][877]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.18-12.35.39:741][877]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-12.35.39:747][877]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2021.02.18-12.35.39:847][878]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2021.02.18-12.36.34:920][394]BlueprintLog: New page: Compile PlayerHero
+[2021.02.18-12.36.35:199][394]LogUObjectHash: Compacting FUObjectHashTables data took   4.17ms
+[2021.02.18-12.36.39:682][528]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Characters/Enemy/BaseEnemy.BaseEnemy
+[2021.02.18-12.37.03:571][443]BlueprintLog: New page: Compile BaseEnemy
+[2021.02.18-12.37.03:717][443]LogUObjectHash: Compacting FUObjectHashTables data took   4.01ms
+[2021.02.18-12.37.07:089][566]LogUObjectHash: Compacting FUObjectHashTables data took   3.59ms
+[2021.02.18-12.37.07:112][566]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/FirstPersonExampleMap" FILE="../../../../../../Projects/Mage/TwoHandMage/Content/Maps/FirstPersonExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.02.18-12.37.07:157][566]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2021.02.18-12.37.07:202][566]LogSavePackage: Moving '../../../../../../Projects/Mage/TwoHandMage/Saved/FirstPersonExampleMap88F3C9F44F7A4B03145C6A83070EEDF4.tmp' to '../../../../../../Projects/Mage/TwoHandMage/Content/Maps/FirstPersonExampleMap.umap'
+[2021.02.18-12.37.07:233][566]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.122
+[2021.02.18-12.37.07:301][566]LogSavePackage: Moving '../../../../../../Projects/Mage/TwoHandMage/Saved/EnemyRunnerE10340504AEC54ED57633AA3AC713226.tmp' to '../../../../../../Projects/Mage/TwoHandMage/Content/Blueprints/Characters/Enemy/Runner/EnemyRunner.uasset'
+[2021.02.18-12.37.07:303][566]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Enemy/BaseEnemy" FILE="../../../../../../Projects/Mage/TwoHandMage/Content/Blueprints/Characters/Enemy/BaseEnemy.uasset" SILENT=true
+[2021.02.18-12.37.07:345][566]LogSavePackage: Moving '../../../../../../Projects/Mage/TwoHandMage/Saved/BaseEnemy9ACB9648409B9B5A0F151FA9331847D9.tmp' to '../../../../../../Projects/Mage/TwoHandMage/Content/Blueprints/Characters/Enemy/BaseEnemy.uasset'
+[2021.02.18-12.37.07:347][566]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BaseCharacter" FILE="../../../../../../Projects/Mage/TwoHandMage/Content/Blueprints/Characters/BaseCharacter.uasset" SILENT=true
+[2021.02.18-12.37.07:383][566]LogSavePackage: Moving '../../../../../../Projects/Mage/TwoHandMage/Saved/BaseCharacter9B33BCE5407AE8106FE60AAF0164E936.tmp' to '../../../../../../Projects/Mage/TwoHandMage/Content/Blueprints/Characters/BaseCharacter.uasset'
+[2021.02.18-12.37.07:403][566]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/PlayerHero" FILE="../../../../../../Projects/Mage/TwoHandMage/Content/Blueprints/Characters/PlayerHero.uasset" SILENT=true
+[2021.02.18-12.37.07:615][566]LogSavePackage: Moving '../../../../../../Projects/Mage/TwoHandMage/Saved/PlayerHeroE517D76847E58814FD4214AED9C4B8A3.tmp' to '../../../../../../Projects/Mage/TwoHandMage/Content/Blueprints/Characters/PlayerHero.uasset'
+[2021.02.18-12.37.07:636][566]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.18-12.37.07:636][566]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Characters/BaseCharacter.BaseCharacter
+[2021.02.18-12.37.07:636][566]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Characters/Enemy/BaseEnemy.BaseEnemy
+[2021.02.18-12.37.07:636][566]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Characters/Enemy/Runner/EnemyRunner.EnemyRunner
+[2021.02.18-12.37.07:636][566]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Characters/PlayerHero.PlayerHero
+[2021.02.18-12.37.07:636][566]LogContentValidation: Display: Validating World /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2021.02.18-12.37.09:430][627]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.18-12.37.09:463][627]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.18-12.37.09:463][627]PIE: New page: PIE session: FirstPersonExampleMap (18 февр. 2021 г., 18:37:09)
+[2021.02.18-12.37.09:464][627]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.18-12.37.09:490][627]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025901s)
+[2021.02.18-12.37.09:492][627]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.02.18-12.37.09:493][627]LogPlayLevel: PIE: World Init took: (0.002777s)
+[2021.02.18-12.37.09:493][627]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.029091s)
+[2021.02.18-12.37.09:543][627]LogUObjectHash: Compacting FUObjectHashTables data took   3.46ms
+[2021.02.18-12.37.09:545][627]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2021.02.18-12.37.09:545][627]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.18-12.37.09:545][627]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.18-12.37.09:545][627]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.18-12.37.09:545][627]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.18-12.37.09:545][627]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.18-12.37.09:545][627]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.18-12.37.09:545][627]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.18-12.37.09:545][627]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.18-12.37.09:546][627]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.18-12.37.09:546][627]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.18-12.37.09:551][627]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.18-12.37.09:551][627]LogAudioMixer: Display: 1: FrontRight
+[2021.02.18-12.37.09:629][627]LogAudioMixer: Display: Using Audio Device Динамики (Realtek High Definition Audio)
+[2021.02.18-12.37.09:630][627]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.18-12.37.09:630][627]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.18-12.37.09:630][627]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.18-12.37.09:631][627]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.18-12.37.09:631][627]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.18-12.37.09:631][627]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.18-12.37.09:657][627]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.18-12.37.09:657][627]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.18-12.37.09:657][627]LogInit: FAudioDevice initialized.
+[2021.02.18-12.37.09:657][627]LogAudio: Display: Audio Device (ID: 22) registered with world 'FirstPersonExampleMap'.
+[2021.02.18-12.37.09:668][627]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.02.18-12.37.09:674][627]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2021.02.18-15.37.09
+[2021.02.18-12.37.09:676][627]LogWorld: Bringing up level for play took: 0.007769
+[2021.02.18-12.37.09:677][627]LogOnline: OSS: Creating online subsystem instance for: :Context_33
+[2021.02.18-12.37.09:679][627]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.02.18-12.37.09:682][627]PIE: Server logged in
+[2021.02.18-12.37.09:684][627]PIE: Play in editor total start time 0,224 seconds.
+[2021.02.18-12.37.16:107][825]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-12.37.16:107][825]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.18-12.37.16:108][825]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.02.18-12.37.16:109][825]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-12.37.16:120][825]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.18-12.37.16:147][825]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-12.37.16:187][825]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-12.37.16:188][825]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.18-12.37.16:189][825]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.18-12.37.16:225][825]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
+[2021.02.18-12.37.16:340][826]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2021.02.18-12.37.19:277][917]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Characters/Enemy/Runner/EnemyRunner.EnemyRunner
+[2021.02.18-12.38.10:118][949]LogEditorTransaction: Undo Set Scale
+[2021.02.18-12.39.16:268][551]BlueprintLog: New page: Compile EnemyRunner
+[2021.02.18-12.39.16:433][551]LogUObjectHash: Compacting FUObjectHashTables data took   3.98ms
+[2021.02.18-12.39.17:277][576]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2021.02.18-12.39.17:313][576]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/FirstPersonExampleMap" FILE="../../../../../../Projects/Mage/TwoHandMage/Content/Maps/FirstPersonExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.02.18-12.39.17:361][576]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2021.02.18-12.39.17:408][576]LogSavePackage: Moving '../../../../../../Projects/Mage/TwoHandMage/Saved/FirstPersonExampleMapB3B940F84B13845AADC820B62E88E17C.tmp' to '../../../../../../Projects/Mage/TwoHandMage/Content/Maps/FirstPersonExampleMap.umap'
+[2021.02.18-12.39.17:438][576]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.126
+[2021.02.18-12.39.17:520][576]LogSavePackage: Moving '../../../../../../Projects/Mage/TwoHandMage/Saved/EnemyRunner7B47B5B6482BFE0861A7B783F6E478A0.tmp' to '../../../../../../Projects/Mage/TwoHandMage/Content/Blueprints/Characters/Enemy/Runner/EnemyRunner.uasset'
+[2021.02.18-12.39.17:546][576]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.18-12.39.17:546][576]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Characters/Enemy/Runner/EnemyRunner.EnemyRunner
+[2021.02.18-12.39.17:546][576]LogContentValidation: Display: Validating World /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2021.02.18-12.39.19:198][625]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.18-12.39.19:231][625]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.18-12.39.19:231][625]PIE: New page: PIE session: FirstPersonExampleMap (18 февр. 2021 г., 18:39:19)
+[2021.02.18-12.39.19:231][625]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.18-12.39.19:259][625]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028412s)
+[2021.02.18-12.39.19:261][625]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.02.18-12.39.19:262][625]LogPlayLevel: PIE: World Init took: (0.002080s)
+[2021.02.18-12.39.19:262][625]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.030884s)
+[2021.02.18-12.39.19:313][625]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2021.02.18-12.39.19:316][625]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2021.02.18-12.39.19:316][625]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.18-12.39.19:316][625]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.18-12.39.19:316][625]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.18-12.39.19:316][625]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.18-12.39.19:316][625]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.18-12.39.19:316][625]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.18-12.39.19:316][625]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.18-12.39.19:316][625]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.18-12.39.19:317][625]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.18-12.39.19:317][625]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.18-12.39.19:322][625]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.18-12.39.19:322][625]LogAudioMixer: Display: 1: FrontRight
+[2021.02.18-12.39.19:395][625]LogAudioMixer: Display: Using Audio Device Динамики (Realtek High Definition Audio)
+[2021.02.18-12.39.19:396][625]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.18-12.39.19:396][625]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.18-12.39.19:396][625]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.18-12.39.19:397][625]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.18-12.39.19:397][625]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.18-12.39.19:397][625]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.18-12.39.19:421][625]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.18-12.39.19:421][625]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.18-12.39.19:421][625]LogInit: FAudioDevice initialized.
+[2021.02.18-12.39.19:421][625]LogAudio: Display: Audio Device (ID: 23) registered with world 'FirstPersonExampleMap'.
+[2021.02.18-12.39.19:434][625]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.02.18-12.39.19:440][625]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2021.02.18-15.39.19
+[2021.02.18-12.39.19:442][625]LogWorld: Bringing up level for play took: 0.007463
+[2021.02.18-12.39.19:443][625]LogOnline: OSS: Creating online subsystem instance for: :Context_35
+[2021.02.18-12.39.19:446][625]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.02.18-12.39.19:448][625]PIE: Server logged in
+[2021.02.18-12.39.19:449][625]PIE: Play in editor total start time 0,223 seconds.
+[2021.02.18-12.39.37:064][159]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-12.39.37:064][159]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.18-12.39.37:065][159]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.02.18-12.39.37:066][159]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-12.39.37:077][159]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.18-12.39.37:104][159]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-12.39.37:146][159]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-12.39.37:147][159]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.18-12.39.37:148][159]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.18-12.39.37:183][159]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2021.02.18-12.39.37:275][160]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2021.02.18-12.39.56:422][719]BlueprintLog: New page: Compile EnemyRunner
+[2021.02.18-12.39.56:545][719]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2021.02.18-12.39.58:565][772]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.18-12.39.58:590][772]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.18-12.39.58:590][772]PIE: New page: PIE session: FirstPersonExampleMap (18 февр. 2021 г., 18:39:58)
+[2021.02.18-12.39.58:590][772]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.18-12.39.58:625][772]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034357s)
+[2021.02.18-12.39.58:627][772]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.02.18-12.39.58:628][772]LogPlayLevel: PIE: World Init took: (0.002379s)
+[2021.02.18-12.39.58:628][772]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.037255s)
+[2021.02.18-12.39.58:688][772]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2021.02.18-12.39.58:690][772]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2021.02.18-12.39.58:691][772]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.18-12.39.58:691][772]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.18-12.39.58:691][772]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.18-12.39.58:691][772]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.18-12.39.58:691][772]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.18-12.39.58:691][772]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.18-12.39.58:691][772]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.18-12.39.58:691][772]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.18-12.39.58:691][772]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.18-12.39.58:691][772]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.18-12.39.58:697][772]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.18-12.39.58:697][772]LogAudioMixer: Display: 1: FrontRight
+[2021.02.18-12.39.58:773][772]LogAudioMixer: Display: Using Audio Device Динамики (Realtek High Definition Audio)
+[2021.02.18-12.39.58:774][772]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.18-12.39.58:774][772]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.18-12.39.58:774][772]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.18-12.39.58:775][772]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.18-12.39.58:775][772]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.18-12.39.58:775][772]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.18-12.39.58:801][772]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.18-12.39.58:801][772]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.18-12.39.58:801][772]LogInit: FAudioDevice initialized.
+[2021.02.18-12.39.58:801][772]LogAudio: Display: Audio Device (ID: 24) registered with world 'FirstPersonExampleMap'.
+[2021.02.18-12.39.58:813][772]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.02.18-12.39.58:819][772]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2021.02.18-15.39.58
+[2021.02.18-12.39.58:822][772]LogWorld: Bringing up level for play took: 0.008497
+[2021.02.18-12.39.58:823][772]LogOnline: OSS: Creating online subsystem instance for: :Context_36
+[2021.02.18-12.39.58:826][772]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.02.18-12.39.58:829][772]PIE: Server logged in
+[2021.02.18-12.39.58:830][772]PIE: Play in editor total start time 0,244 seconds.
+[2021.02.18-12.40.32:544][822]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-12.40.32:544][822]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.18-12.40.32:545][822]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.02.18-12.40.32:546][822]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-12.40.32:559][822]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.18-12.40.32:590][822]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-12.40.32:633][822]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.02.18-12.40.32:634][822]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.18-12.40.32:635][822]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.18-12.40.32:664][822]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-12.40.32:670][822]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2021.02.18-12.40.32:770][823]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2021.02.18-12.40.49:623][296]BlueprintLog: New page: Compile PlayerHero
+[2021.02.18-12.40.49:777][296]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2021.02.18-12.40.50:920][322]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.18-12.40.50:948][322]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.18-12.40.50:948][322]PIE: New page: PIE session: FirstPersonExampleMap (18 февр. 2021 г., 18:40:50)
+[2021.02.18-12.40.50:948][322]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.18-12.40.50:973][322]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024345s)
+[2021.02.18-12.40.50:974][322]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.02.18-12.40.50:975][322]LogPlayLevel: PIE: World Init took: (0.002099s)
+[2021.02.18-12.40.50:975][322]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.026734s)
+[2021.02.18-12.40.51:031][322]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
+[2021.02.18-12.40.51:034][322]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2021.02.18-12.40.51:034][322]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.18-12.40.51:034][322]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.18-12.40.51:034][322]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.18-12.40.51:034][322]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.18-12.40.51:034][322]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.18-12.40.51:034][322]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.18-12.40.51:034][322]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.18-12.40.51:034][322]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.18-12.40.51:035][322]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.18-12.40.51:035][322]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.18-12.40.51:040][322]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.18-12.40.51:040][322]LogAudioMixer: Display: 1: FrontRight
+[2021.02.18-12.40.51:117][322]LogAudioMixer: Display: Using Audio Device Динамики (Realtek High Definition Audio)
+[2021.02.18-12.40.51:118][322]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.18-12.40.51:118][322]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.18-12.40.51:118][322]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.18-12.40.51:119][322]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.18-12.40.51:119][322]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.18-12.40.51:119][322]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.18-12.40.51:146][322]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.18-12.40.51:146][322]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.18-12.40.51:146][322]LogInit: FAudioDevice initialized.
+[2021.02.18-12.40.51:146][322]LogAudio: Display: Audio Device (ID: 25) registered with world 'FirstPersonExampleMap'.
+[2021.02.18-12.40.51:156][322]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.02.18-12.40.51:163][322]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2021.02.18-15.40.51
+[2021.02.18-12.40.51:165][322]LogWorld: Bringing up level for play took: 0.008006
+[2021.02.18-12.40.51:165][322]LogOnline: OSS: Creating online subsystem instance for: :Context_37
+[2021.02.18-12.40.51:168][322]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.02.18-12.40.51:170][322]PIE: Server logged in
+[2021.02.18-12.40.51:172][322]PIE: Play in editor total start time 0,23 seconds.
+[2021.02.18-12.41.14:164][ 21]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-12.41.14:164][ 21]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.18-12.41.14:165][ 21]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.02.18-12.41.14:166][ 21]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-12.41.14:179][ 21]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.18-12.41.14:208][ 21]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-12.41.14:249][ 21]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.02.18-12.41.14:250][ 21]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.18-12.41.14:252][ 21]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.18-12.41.14:279][ 21]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-12.41.14:286][ 21]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2021.02.18-12.41.14:381][ 22]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2021.02.18-12.41.34:951][586]BlueprintLog: New page: Compile PlayerHero
+[2021.02.18-12.41.35:138][586]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2021.02.18-12.41.36:371][611]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.18-12.41.36:410][611]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.18-12.41.36:411][611]PIE: New page: PIE session: FirstPersonExampleMap (18 февр. 2021 г., 18:41:36)
+[2021.02.18-12.41.36:411][611]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.18-12.41.36:443][611]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031835s)
+[2021.02.18-12.41.36:445][611]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.02.18-12.41.36:446][611]LogPlayLevel: PIE: World Init took: (0.002719s)
+[2021.02.18-12.41.36:446][611]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.035045s)
+[2021.02.18-12.41.36:503][611]LogUObjectHash: Compacting FUObjectHashTables data took   3.78ms
+[2021.02.18-12.41.36:505][611]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2021.02.18-12.41.36:505][611]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.18-12.41.36:505][611]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.18-12.41.36:505][611]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.18-12.41.36:505][611]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.18-12.41.36:505][611]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.18-12.41.36:505][611]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.18-12.41.36:505][611]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.18-12.41.36:505][611]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.18-12.41.36:506][611]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.18-12.41.36:506][611]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.18-12.41.36:511][611]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.18-12.41.36:511][611]LogAudioMixer: Display: 1: FrontRight
+[2021.02.18-12.41.36:588][611]LogAudioMixer: Display: Using Audio Device Динамики (Realtek High Definition Audio)
+[2021.02.18-12.41.36:588][611]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.18-12.41.36:588][611]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.18-12.41.36:588][611]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.18-12.41.36:589][611]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.18-12.41.36:589][611]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.18-12.41.36:589][611]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.18-12.41.36:613][611]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.18-12.41.36:613][611]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.18-12.41.36:613][611]LogInit: FAudioDevice initialized.
+[2021.02.18-12.41.36:613][611]LogAudio: Display: Audio Device (ID: 26) registered with world 'FirstPersonExampleMap'.
+[2021.02.18-12.41.36:622][611]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.02.18-12.41.36:629][611]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2021.02.18-15.41.36
+[2021.02.18-12.41.36:631][611]LogWorld: Bringing up level for play took: 0.007433
+[2021.02.18-12.41.36:631][611]LogOnline: OSS: Creating online subsystem instance for: :Context_38
+[2021.02.18-12.41.36:634][611]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.02.18-12.41.36:637][611]PIE: Server logged in
+[2021.02.18-12.41.36:638][611]PIE: Play in editor total start time 0,232 seconds.
+[2021.02.18-12.42.06:122][543]LogBlueprintUserMessages: [Shield1_GEN_VARIABLE_Shield_C_CAT_0] shield
+[2021.02.18-12.42.11:174][704]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.42.11:174][704]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:175][704]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:175][704]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:175][704]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:209][705]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.42.11:209][705]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:210][705]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:210][705]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:210][705]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:242][706]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.42.11:242][706]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:242][706]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:242][706]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:242][706]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:278][707]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.42.11:278][707]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:278][707]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:278][707]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:279][707]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:307][708]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.42.11:307][708]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:307][708]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:308][708]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:308][708]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:344][709]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.42.11:344][709]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:344][709]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:344][709]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:344][709]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:372][710]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.42.11:373][710]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:373][710]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:373][710]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:373][710]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:407][711]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.42.11:408][711]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:408][711]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:408][711]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:408][711]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:441][712]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.42.11:441][712]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:441][712]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:441][712]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:442][712]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:452][713]LogScript: Warning: Attempted to access PlayerHero_2 via property CallFunc_GetInstigator_ReturnValue, but PlayerHero_2 is pending kill
+	PoisonCloud_C /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.PoisonCloud_C_1
+	Function /Game/Blueprints/PoisonCloud.PoisonCloud_C:Apply Damage to All:01D4
+[2021.02.18-12.42.11:455][713]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property CallFunc_GetInstigator_ReturnValue, but PlayerHero_2 is pending kill". Blueprint:  PoisonCloud Function:  Apply Damage To All Graph:  Apply Damage to All Node:  Apply Damage
+[2021.02.18-12.42.11:479][713]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.42.11:479][713]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:479][713]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:479][713]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:479][713]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:508][714]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.42.11:508][714]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:508][714]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:508][714]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:508][714]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:542][715]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.42.11:542][715]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:542][715]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:542][715]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:542][715]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:576][716]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.42.11:577][716]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:577][716]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:577][716]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:577][716]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:608][717]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.42.11:608][717]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:608][717]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:608][717]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:609][717]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:641][718]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.42.11:641][718]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:641][718]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:641][718]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:641][718]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:674][719]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.42.11:674][719]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:674][719]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:675][719]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:675][719]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:707][720]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.42.11:707][720]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:707][720]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:707][720]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:708][720]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:740][721]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.42.11:740][721]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:740][721]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:740][721]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:740][721]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:751][722]LogScript: Warning: Attempted to access PlayerHero_2 via property CallFunc_GetInstigator_ReturnValue, but PlayerHero_2 is pending kill
+	PoisonCloud_C /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.PoisonCloud_C_1
+	Function /Game/Blueprints/PoisonCloud.PoisonCloud_C:Apply Damage to All:01D4
+[2021.02.18-12.42.11:752][722]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property CallFunc_GetInstigator_ReturnValue, but PlayerHero_2 is pending kill". Blueprint:  PoisonCloud Function:  Apply Damage To All Graph:  Apply Damage to All Node:  Apply Damage
+[2021.02.18-12.42.11:773][722]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.42.11:773][722]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:773][722]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:773][722]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:774][722]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:807][723]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.42.11:807][723]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:807][723]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:807][723]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:807][723]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:840][724]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.42.11:840][724]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:841][724]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:841][724]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:841][724]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:872][725]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.42.11:872][725]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:872][725]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:873][725]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:873][725]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:904][726]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.42.11:904][726]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:904][726]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:904][726]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:905][726]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:935][727]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.42.11:935][727]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:935][727]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:935][727]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:936][727]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:963][728]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.42.11:964][728]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:964][728]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:964][728]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:964][728]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:989][729]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.42.11:989][729]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:989][729]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:989][729]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.11:989][729]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:020][730]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.42.12:020][730]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:020][730]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:020][730]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:020][730]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:049][731]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.42.12:050][731]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:050][731]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:050][731]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:050][731]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:078][732]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.42.12:078][732]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:078][732]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:078][732]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:078][732]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:104][733]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.42.12:104][733]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:104][733]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:104][733]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:104][733]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:135][734]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.42.12:135][734]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:136][734]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:136][734]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:136][734]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:164][735]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.42.12:164][735]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:165][735]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:165][735]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:165][735]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:189][736]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.42.12:189][736]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:190][736]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:190][736]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:190][736]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:222][737]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.42.12:222][737]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:223][737]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:223][737]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:223][737]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:256][738]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.42.12:256][738]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:256][738]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:256][738]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:256][738]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:287][739]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.42.12:287][739]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:287][739]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:287][739]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:287][739]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:318][740]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.42.12:318][740]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:318][740]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:319][740]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:319][740]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:341][741]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.42.12:341][741]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:341][741]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:341][741]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:341][741]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:372][742]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.42.12:373][742]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:373][742]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:373][742]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:373][742]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:404][743]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Health Graph:  GetHealth Node:  Return Node
+[2021.02.18-12.42.12:405][743]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Fireball CD Percent 0 Graph:  Get_FireballCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:405][743]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Granade CD Percent 0 Graph:  Get_GranadeCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:405][743]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Shield CD Percent 0 Graph:  Get_ShieldCD_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:405][743]PIE: Error: Blueprint Runtime Error: "Attempted to access PlayerHero_2 via property Hero, but PlayerHero_2 is pending kill". Blueprint:  HUD Function:  Get Dash Cooldown Percent 0 Graph:  Get_DashCooldown_Percent_0 Node:  Return Node
+[2021.02.18-12.42.12:455][744]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-12.42.12:455][744]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.18-12.42.12:456][744]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.02.18-12.42.12:456][744]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-12.42.12:470][744]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.18-12.42.12:500][744]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-12.42.12:541][744]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.02.18-12.42.12:542][744]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.18-12.42.12:544][744]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.18-12.42.12:572][744]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-12.42.12:578][744]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2021.02.18-12.42.12:734][745]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2021.02.18-12.42.18:386][907]BlueprintLog: New page: Compile PlayerHero
+[2021.02.18-12.42.18:562][907]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2021.02.18-12.42.19:341][923]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.18-12.42.19:373][923]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.18-12.42.19:373][923]PIE: New page: PIE session: FirstPersonExampleMap (18 февр. 2021 г., 18:42:19)
+[2021.02.18-12.42.19:373][923]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.18-12.42.19:400][923]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026478s)
+[2021.02.18-12.42.19:401][923]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.02.18-12.42.19:402][923]LogPlayLevel: PIE: World Init took: (0.002106s)
+[2021.02.18-12.42.19:402][923]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.029026s)
+[2021.02.18-12.42.19:454][923]LogUObjectHash: Compacting FUObjectHashTables data took   3.83ms
+[2021.02.18-12.42.19:456][923]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2021.02.18-12.42.19:456][923]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.18-12.42.19:456][923]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.18-12.42.19:457][923]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.18-12.42.19:457][923]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.18-12.42.19:457][923]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.18-12.42.19:457][923]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.18-12.42.19:457][923]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.18-12.42.19:457][923]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.18-12.42.19:457][923]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.18-12.42.19:457][923]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.18-12.42.19:463][923]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.18-12.42.19:463][923]LogAudioMixer: Display: 1: FrontRight
+[2021.02.18-12.42.19:540][923]LogAudioMixer: Display: Using Audio Device Динамики (Realtek High Definition Audio)
+[2021.02.18-12.42.19:541][923]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.18-12.42.19:541][923]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.18-12.42.19:541][923]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.18-12.42.19:541][923]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.18-12.42.19:542][923]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.18-12.42.19:542][923]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.18-12.42.19:569][923]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.18-12.42.19:569][923]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.18-12.42.19:569][923]LogInit: FAudioDevice initialized.
+[2021.02.18-12.42.19:570][923]LogAudio: Display: Audio Device (ID: 27) registered with world 'FirstPersonExampleMap'.
+[2021.02.18-12.42.19:585][923]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.02.18-12.42.19:591][923]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2021.02.18-15.42.19
+[2021.02.18-12.42.19:594][923]LogWorld: Bringing up level for play took: 0.007881
+[2021.02.18-12.42.19:594][923]LogOnline: OSS: Creating online subsystem instance for: :Context_39
+[2021.02.18-12.42.19:597][923]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.02.18-12.42.19:599][923]PIE: Server logged in
+[2021.02.18-12.42.19:601][923]PIE: Play in editor total start time 0,232 seconds.
+[2021.02.18-12.42.24:135][ 60]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-12.42.24:135][ 60]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.18-12.42.24:136][ 60]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.02.18-12.42.24:137][ 60]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-12.42.24:150][ 60]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.18-12.42.24:177][ 60]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-12.42.24:218][ 60]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.02.18-12.42.24:219][ 60]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.18-12.42.24:220][ 60]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.18-12.42.24:251][ 60]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-12.42.24:257][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2021.02.18-12.42.24:342][ 61]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2021.02.18-12.42.31:835][266]BlueprintLog: New page: Compile PlayerHero
+[2021.02.18-12.42.32:015][266]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2021.02.18-12.42.33:483][297]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.18-12.42.33:519][297]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.18-12.42.33:519][297]PIE: New page: PIE session: FirstPersonExampleMap (18 февр. 2021 г., 18:42:33)
+[2021.02.18-12.42.33:519][297]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.18-12.42.33:549][297]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029557s)
+[2021.02.18-12.42.33:551][297]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.02.18-12.42.33:551][297]LogPlayLevel: PIE: World Init took: (0.002347s)
+[2021.02.18-12.42.33:552][297]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.032321s)
+[2021.02.18-12.42.33:609][297]LogUObjectHash: Compacting FUObjectHashTables data took   3.78ms
+[2021.02.18-12.42.33:611][297]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2021.02.18-12.42.33:611][297]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.18-12.42.33:611][297]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.18-12.42.33:611][297]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.18-12.42.33:611][297]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.18-12.42.33:611][297]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.18-12.42.33:611][297]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.18-12.42.33:611][297]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.18-12.42.33:611][297]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.18-12.42.33:612][297]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.18-12.42.33:612][297]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.18-12.42.33:617][297]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.18-12.42.33:617][297]LogAudioMixer: Display: 1: FrontRight
+[2021.02.18-12.42.33:693][297]LogAudioMixer: Display: Using Audio Device Динамики (Realtek High Definition Audio)
+[2021.02.18-12.42.33:693][297]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.18-12.42.33:693][297]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.18-12.42.33:694][297]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.18-12.42.33:694][297]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.18-12.42.33:694][297]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.18-12.42.33:694][297]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.18-12.42.33:718][297]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.18-12.42.33:718][297]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.18-12.42.33:718][297]LogInit: FAudioDevice initialized.
+[2021.02.18-12.42.33:718][297]LogAudio: Display: Audio Device (ID: 28) registered with world 'FirstPersonExampleMap'.
+[2021.02.18-12.42.33:729][297]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.02.18-12.42.33:735][297]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2021.02.18-15.42.33
+[2021.02.18-12.42.33:738][297]LogWorld: Bringing up level for play took: 0.008005
+[2021.02.18-12.42.33:738][297]LogOnline: OSS: Creating online subsystem instance for: :Context_40
+[2021.02.18-12.42.33:741][297]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.02.18-12.42.33:744][297]PIE: Server logged in
+[2021.02.18-12.42.33:745][297]PIE: Play in editor total start time 0,238 seconds.
+[2021.02.18-12.43.24:814][898]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-12.43.24:815][898]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.18-12.43.24:815][898]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.02.18-12.43.24:815][898]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-12.43.24:829][898]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.18-12.43.24:858][898]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-12.43.24:901][898]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.02.18-12.43.24:902][898]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.18-12.43.24:903][898]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.18-12.43.24:931][898]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-12.43.24:937][898]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2021.02.18-12.43.25:047][899]LogPlayLevel: Display: Destroying online subsystem :Context_40
