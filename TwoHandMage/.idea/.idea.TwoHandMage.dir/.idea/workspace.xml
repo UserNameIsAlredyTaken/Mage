@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="888cb0da-d020-47e7-8cac-1f8a575f4327" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Characters/Enemy/Runner/AI/BB_Runner.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Characters/Enemy/Runner/AI/BB_Runner.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Characters/Enemy/Runner/AI/BTT_EnemyAttack.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Characters/Enemy/Runner/AI/BTT_EnemyAttack.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Characters/Enemy/Runner/AI/BTT_FocuseOnPlayer.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Characters/Enemy/Runner/AI/BTT_FocuseOnPlayer.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Characters/Enemy/Runner/AI/BT_Runner.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Characters/Enemy/Runner/AI/BT_Runner.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Characters/PlayerHero.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Characters/PlayerHero.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Maps/FirstPersonExampleMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/FirstPersonExampleMap.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/AutoScreenshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/AutoScreenshot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Blueprints/Characters/Enemy/Runner/AI/BTT_EnemyAttack_Auto2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/Blueprints/Characters/Enemy/Runner/AI/BTT_EnemyAttack_Auto2.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Blueprints/Characters/Enemy/Runner/AI/BT_Runner_Auto3.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/Blueprints/Characters/Enemy/Runner/AI/BT_Runner_Auto3.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Blueprints/Characters/Enemy/Runner/AI/BT_Runner_Auto5.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/Blueprints/Characters/Enemy/Runner/AI/BT_Runner_Auto5.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Blueprints/Characters/PlayerHero_Auto6.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/Blueprints/Characters/PlayerHero_Auto6.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Maps/FirstPersonExampleMap_Auto1.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/Maps/FirstPersonExampleMap_Auto1.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Maps/FirstPersonExampleMap_Auto2.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/Maps/FirstPersonExampleMap_Auto2.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Maps/FirstPersonExampleMap_Auto3.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/Maps/FirstPersonExampleMap_Auto3.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Maps/FirstPersonExampleMap_Auto6.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/Maps/FirstPersonExampleMap_Auto6.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-E0E81F1D401BA05949A98A8384D1D1BC/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-F6455B0B466FAFC68167F4ABF6E86048/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/Windows/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/Windows/EditorPerProjectUserSettings.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/Windows/Engine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/Windows/Engine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/TwoHandMage-backup-2021.02.14-16.06.15.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/TwoHandMage-backup-2021.02.15-15.43.03.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/TwoHandMage.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/TwoHandMage.log" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1ohkcjyMs4ITxTcJJfk2MwWyC4D" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="888cb0da-d020-47e7-8cac-1f8a575f4327" name="Default Changelist" comment="" />
+      <created>1613746297055</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613746297055</updated>
+      <workItem from="1613746304315" duration="67000" />
+      <workItem from="1613746825465" duration="802000" />
+    </task>
+    <servers />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

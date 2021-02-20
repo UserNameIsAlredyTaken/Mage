@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Projects\\Mage\\TwoHandMage\\Source\\TwoHandMage\\TwoHandMage.Build.cs",
+		"C:\\Projects\\Mage\\TwoHandMage\\Source\\TwoHandMage.Target.cs",
+		"C:\\Projects\\Mage\\TwoHandMage\\Source\\TwoHandMageEditor.Target.cs"
+	],
+	"EngineVersion": "4.26.1"
+}

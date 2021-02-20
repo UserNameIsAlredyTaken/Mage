@@ -1,0 +1,2 @@
+C:\Projects\Mage\TwoHandMage\Intermediate\Build\Win64\UE4Editor\Development\TwoHandMage\Definitions.TwoHandMage.h
+C:\Projects\Mage\TwoHandMage\Source\TwoHandMage\TwoHandMage.h

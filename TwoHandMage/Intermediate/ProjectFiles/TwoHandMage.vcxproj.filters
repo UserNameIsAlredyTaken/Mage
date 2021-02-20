@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TwoHandMage.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{B81AFA4F-6072-4981-B183-9AEC3EFFBE31}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TwoHandMage.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TwoHandMageEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{2B962628-85D9-43CF-82AB-95F7CF6C0EB0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TwoHandMage">
+      <UniqueIdentifier>{E00999F0-6862-4422-B677-DCC62D6F8C44}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TwoHandMage\TwoHandMage.Build.cs">
+      <Filter>Source\TwoHandMage</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TwoHandMage\TwoHandMage.cpp">
+      <Filter>Source\TwoHandMage</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TwoHandMage\TwoHandMage.h">
+      <Filter>Source\TwoHandMage</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TwoHandMage\UtilBlueprints.cpp">
+      <Filter>Source\TwoHandMage</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TwoHandMage\UtilBlueprints.h">
+      <Filter>Source\TwoHandMage</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

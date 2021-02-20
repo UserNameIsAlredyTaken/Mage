@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-TwoHandMage-0002.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Projects\Mage\TwoHandMage\Intermediate\Build\Win64\TwoHandMageEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Projects\Mage\TwoHandMage\Intermediate\Build\Win64\UE4Editor\Development\TwoHandMage\TwoHandMage.cpp.obj"
+"C:\Projects\Mage\TwoHandMage\Intermediate\Build\Win64\UE4Editor\Development\TwoHandMage\UtilBlueprints.cpp.obj"
+"C:\Projects\Mage\TwoHandMage\Intermediate\Build\Win64\UE4Editor\Development\TwoHandMage\TwoHandMage.init.gen.cpp.obj"
+"C:\Projects\Mage\TwoHandMage\Intermediate\Build\Win64\UE4Editor\Development\TwoHandMage\UtilBlueprints.gen.cpp.obj"
+"C:\Projects\Mage\TwoHandMage\Intermediate\Build\Win64\UE4Editor\Development\TwoHandMage\Default.rc2.res"
+/OUT:"C:\Projects\Mage\TwoHandMage\Intermediate\Build\Win64\UE4Editor\Development\TwoHandMage\UE4Editor-TwoHandMage-0002.lib"
+/INCLUDE:IMPLEMENT_MODULE_TwoHandMage

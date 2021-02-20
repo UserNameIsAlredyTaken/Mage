@@ -1,0 +1,3 @@
+C:\Projects\Mage\TwoHandMage\Intermediate\Build\Win64\UE4Editor\Development\TwoHandMage\Definitions.TwoHandMage.h
+C:\Games\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Games\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h

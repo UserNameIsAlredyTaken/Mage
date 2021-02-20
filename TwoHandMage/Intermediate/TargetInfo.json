@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "TwoHandMage",
+			"Path": "C:\\Projects\\Mage\\TwoHandMage\\Source\\TwoHandMage.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "TwoHandMageEditor",
+			"Path": "C:\\Projects\\Mage\\TwoHandMage\\Source\\TwoHandMageEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
